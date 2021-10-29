@@ -35,5 +35,5 @@ def WriteTheDict(mydict , dictname = 'poub.json'):
 if __name__ == '__main__':
     duck = {'duck': 'walk like a duck'}
     if WriteTheDict(duck, 'duck.json'):
-        isaduck = ReadTheDict('duck.json')
-        print(isaduck)
+        print(ReadTheDict('duck.json'))
+        
